@@ -1,11 +1,9 @@
 # Shopify Challenge
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
-
 - [Prompt](#prompt)
 - [Technical requirements](#technical-requirements)
 - [How to run?](#how-to-run)
-
 <!-- /TOC -->
 
 ## Prompt
