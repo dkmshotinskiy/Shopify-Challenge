@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Shopify Challenge</title>
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body>
+		<main>
+			<h1>Shopify Challenge</h1>
+			<form onsubmit="prepareRequest(event)">
+				<label for="prompt">Prompt</label>
+				<textarea name="prompt" id="prompt" placeholder="Type something..."></textarea>
+
+				<button type="submit">Submit</button>
+			</form>
+
+			<h2>Responses</h2>
+			<section id="no-responses">
+				<hr>
+				<p>There are no responses, yet...<br>Use form above to request the first one!</p>
+			</section>
+
+			<template id="response">
+				<section>
+					<h3>Prompt:</h3>
+					<p class="prompt"></p>
+
+					<h3>Response:</h3>
+					<p class="res"></p>
+				</section>
+			</template>
+		</main>
+		<script src="index.js"></script>
+	</body>
+</html>

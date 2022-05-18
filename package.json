@@ -1,0 +1,19 @@
+{
+	"name": "Shopify",
+	"version": "1.0.0",
+	"main": "server.js",
+	"repository": "https://github.com/dkmshotinskiy/Shopify-Challenge.git",
+	"author": "Dmitry Khotinskiy",
+	"license": "MIT",
+	"private": true,
+	"dependencies": {
+		"dotenv": "^16.0.1",
+		"express": "^4.18.1",
+		"node-fetch": "2.6.1",
+		"nodemon": "^2.0.16",
+		"openai": "^2.0.5"
+	},
+	"scripts": {
+		"start": "nodemon"
+	}
+}

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+	font-family: 'Source Sans Pro', sans-serif;
+	box-sizing: border-box;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	background: rgb(25, 28, 30);
+}
+
+main {
+	width: 100%;
+	max-width: 50rem;
+	margin: 0 auto;
+	padding: 2.5rem;
+}
+
+h1 {
+	margin: 0;
+	padding-bottom: 2.5rem;
+}
+
+form {
+	display: grid;
+	grid-template-columns: 1fr;
+	overflow: hidden;
+}
+
+label {
+	margin: 0;
+	padding: 0.75rem 1rem;
+	border-radius: 0.5rem 0.5rem 0 0;
+	background: rgba(255, 255, 255, 0.25);
+}
+
+textarea {
+	background:transparent;
+	border: 0;
+	resize: none;
+	height: 12.5rem;
+	font-size: 1rem;
+	padding: 1rem;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 0 0 0.5rem 0.5rem;
+	transition: box-shadow 0.15s ease-out;
+}
+
+textarea:focus {
+	outline: 0;
+	box-shadow: inset 0 0 0.3rem rgb(83, 85, 86);
+}
+
+button {
+	width: 12rem;
+	margin-left: auto;
+	margin-top: 1rem;
+	padding: 1rem 1rem;
+	background: rgba(200, 95, 0, 0.7);
+	font-size: 1rem;
+	border: 0;
+	border-radius: 0.4rem;
+	cursor: pointer;
+	transition: background 0.15s ease-out;
+}
+
+button:hover {
+	background: rgba(200, 95, 0, 0.8);
+}
+
+button:disabled {
+	opacity: 0.5;
+}
+
+section {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+section:last-of-type {
+	margin-bottom: 0;
+}
+
+section#no-responses {
+	background: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	margin-top: 1.5rem;
+	opacity: 0.5;
+	height: 4.5rem;
+}
+
+hr {
+	width: 100%;
+	border: 0;
+	background: rgba(255, 255, 255, 0.8);
+	height: 0.1rem;
+}
+
+section#no-responses p {
+	position: absolute;
+	background: rgb(25, 28, 30);
+	padding: 1rem;
+	border: 0;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1rem;
+	margin: 0;
+	padding: 1rem 1rem 1rem 1.25rem;
+}
+
+p {
+	font-size: 1rem;
+	margin: 0;
+	padding: 1rem 1.25rem 1rem 0;
+	white-space: pre-wrap;
+}
+
+h3:first-of-type, p:first-of-type {
+	border-bottom: solid 0.1rem rgb(25, 28, 30);
+}
